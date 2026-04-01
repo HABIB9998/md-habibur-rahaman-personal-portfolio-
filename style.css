@@ -209,3 +209,48 @@
     text-align: center;
     padding: 20px;
 }
+
+/* 10 section start */
+
+.section-ten{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    box-shadow: 0 5px 15px ;
+}
+
+.btn{
+    color: white;
+    background-color: #A53DFF;
+}
+.end{
+    display: flex;
+    gap: 10px;
+}
+
+/* 11 section start */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background-color: #888888;
+    padding-right: 40px ;
+    color: #ddd;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.ft-h2{
+    color: white;
+    display: flex;
+}
+
+.ft-menu{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    gap: 15px;
+    
+}
