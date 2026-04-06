@@ -30,6 +30,7 @@
     display: flex;
     align-items: center;
     padding: 80px;
+    flex: 25%;
 }
 
 .Experience{
@@ -83,7 +84,7 @@
     padding-bottom: 20px;
     border-color: #A53DFF;
 }
-.section-fram{
+.section-form{
     display: flex;
     padding: 50px;
     align-items: center;
@@ -91,7 +92,7 @@
 
 }
 
-.div-fram{
+.div-form{
     display: flex;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -253,4 +254,70 @@
     text-decoration: none;
     gap: 15px;
     
+}
+
+/* Responsive Responsive*/
+
+/* nav resp */
+
+@media(max-width:600px){
+    nav{
+        flex-wrap: wrap;
+        font-size: 15px;
+        background-color: aqua;
+        
+    }
+}
+
+/* @media(max-width:600px){
+    body {section-form
+        font-size: 14px;
+        background-color: aqua;
+    }
+} */
+
+/* 1 section resp */
+ @media(max-width:600px){
+     .profile-pic , .About , .Experience{
+        flex-wrap: wrap;
+        font-size: 15px;
+        background-color: rgb(66, 20, 231);
+        
+    }
+}
+
+/* 2 section resp */
+
+@media(max-width:600px){
+     .professional{
+        flex-wrap: wrap;
+        font-size: 15px;
+        background-color: rgb(140, 137, 151);
+        
+    }
+}
+
+/* 3 section resp */
+
+@media(max-width:600px){
+     .section-form{
+        flex-wrap: wrap;
+        font-size: 15px;
+        background-color: rgb(27, 17, 65);
+        color: white;
+        
+    }
+}
+
+/* 4 section resp */
+
+@media(max-width:600px){
+     .section-portfolio , .div-pic {
+        flex-wrap: wrap;
+        flex: 25%;
+        font-size: 15px;
+        background-color: rgb(107, 227, 243);
+
+        
+    }
 }
